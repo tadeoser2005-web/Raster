@@ -1,0 +1,25 @@
+============== RASTER ===================================
+| Es una cuadricula de celdas, como una hoja cuadriculda.|
+| Asi funcionan las fotos y pantallas                    |
+=========================================================
+
+
+============== Pares ordenados ===========================
+| La direccion de una celda. x es la columna (izq -> der) |
+| y y la fila (arriba -> abajo), primera celda es la 0,0  |
+=========================================================
+
+
+============== VALOR Z ===================================
+| Un numero que guardamos en cada celda.                 |
+| Yo lo estableci de 0 a 9.                              |
+=========================================================
+
+
+============== REGLA MATRIOSKAS ==========================
+| Se cierran enoreden inverso a como se abrio.           |
+| math,min(9,math.max(0,math.floor(t*10)))               |
+|          |          |            |                     |
+|          -- 1       -- 2          -- 3                 |
+| Y se cierran (3),(2),(1)                               |
+=========================================================
